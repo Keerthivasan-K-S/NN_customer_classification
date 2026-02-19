@@ -1,11 +1,9 @@
 # Developing a Neural Network Classification Model
 
 ## AIM
-
 To develop a neural network classification model for the given dataset.
 
 ## Problem Statement
-
 An automobile company has plans to enter new markets with their existing products. After intensive market research, they’ve decided that the behavior of the new market is similar to their existing market.
 
 In their existing market, the sales team has classified all customers into 4 segments (A, B, C, D ). Then, they performed segmented outreach and communication for a different segment of customers. This strategy has work exceptionally well for them. They plan to use the same strategy for the new markets.
@@ -13,12 +11,10 @@ In their existing market, the sales team has classified all customers into 4 seg
 You are required to help the manager to predict the right group of the new customers.
 
 ## Neural Network Model
-
 <img width="1209" height="799" alt="image" src="https://github.com/user-attachments/assets/2a210679-0a23-4590-9a97-84b5380f5907" />
 
 
 ## DESIGN STEPS
-
 ### STEP 1: Data Collection and Understanding
 Collect customer data from the existing market and identify the features that influence customer segmentation. Define the target variable as the customer segment (A, B, C, or D).
 
@@ -31,9 +27,7 @@ Design a neural network classification model with suitable input, hidden, and ou
 ### STEP 4: Model Evaluation and Prediction
 Evaluate the trained model using test data and use it to predict the customer segment for new customers in the target market.
 
-
 ## PROGRAM
-
 ### Name: Keerthivasan K S
 ### Register Number: 212224230120
 
@@ -82,9 +76,7 @@ def train_model(model, train_loader, criterion, optimizer, epochs):
 ## Dataset Information
 <img width="1139" height="244" alt="image" src="https://github.com/user-attachments/assets/5da5dbd6-a8a0-4a06-9ce9-552484b22951" />
 
-
 ## OUTPUT
-
 ### Confusion Matrix
 <img width="1203" height="754" alt="image" src="https://github.com/user-attachments/assets/7cef50ae-0476-4ab6-8db4-93ee5e1e2c99" />
 
@@ -92,11 +84,8 @@ def train_model(model, train_loader, criterion, optimizer, epochs):
 ### Classification Report
 <img width="1030" height="641" alt="image" src="https://github.com/user-attachments/assets/552c8ed1-3976-4bf0-8d4c-d2a1b933930b" />
 
-
 ### New Sample Data Prediction
 <img width="1086" height="363" alt="image" src="https://github.com/user-attachments/assets/fefdfb19-8d58-4eaf-a89c-f8d48b64ca64" />
 
-
 ## RESULT
-
 Thus neural network classification model is developded for the given dataset. 
